@@ -1,0 +1,89 @@
+.flex-container {
+  display: flex;
+}
+
+.top_heading_fontsize {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.second_div_container_top_heading_fontsize {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.services_heading {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.second_div_para_fontsize,
+.services_intro {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .extra_warranty_div {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .services_intro_size {
+    display: flex;
+    justify-content: center;
+  }
+  .services_intro {
+    width: 700px;
+  }
+  .extra_warranty_div {
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 991px) {
+  .top_heading_fontsize {
+    text-align: center;
+  }
+
+  .top_right_side {
+    margin-top: 50px;
+  }
+
+  .second_div_container {
+    text-align: center;
+  }
+
+  .br_till_md {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .top_heading_fontsize {
+    font-size: 40px;
+  }
+
+  .second_div_container_top_heading_fontsize {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .service_order_btn {
+    width: 95%;
+  }
+  .extra_warranty_div {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .top_heading_fontsize {
+    font-size: 30px;
+  }
+
+  .second_div_para_fontsize,
+  .services_intro {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,17 @@
+.header_logo {
+    height: 90px;
+    width: 140px;
+}
+
+@media (max-width: 767px) {
+    .padding_left_after_md_scrn {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .header_logo {
+        height: 50px;
+        width: 80px;
+    }
+}
+

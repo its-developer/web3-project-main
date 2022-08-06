@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body,
+html {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.text-secondary {
+  color: #b89562 !important;
+}
+
+.font-jura {
+  font-family: "Jura", sans-serif;
+}
