@@ -1,12 +1,13 @@
 import { useDispatch } from "react-redux";
 import { AddToCart } from "../../Redux/Web3CartReducer";
+import LabourServieces from "../../Assets/labour-services.jpg";
 
 function TopInto() {
   const dispatch = useDispatch();
 
   return (
     <div className="container-fluid p-0 m-0">
-      <div className="row px-5 mt-4">
+      <div className="row px-5 mt-5 pt-3 mb-md-4">
         <div className="col-md-6 col-12 d-flex align-items-center justify-content-center flex-column">
           <div className="">
             <h1 className="font-jura text-capitalize">
@@ -33,10 +34,10 @@ function TopInto() {
             </button>
           </div>
         </div>
-        <div className="col-md-6 d-flex align-items-center justify-content-center">
+        <div className="col-md-6 d-flex align-items-center justify-content-center p-4  bg-white shadow">
           <img
-            className="img-responsive w-100 p-4 shadow bg-white rounded"
-            src="https://images.unsplash.com/photo-1659720879386-923f2a19f19e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            className="img-responsive w-100 border-1 border bg-white rounded"
+            src={LabourServieces}
           />
         </div>
       </div>

@@ -12,3 +12,7 @@ html {
 .font-jura {
   font-family: "Jura", sans-serif;
 }
+
+img {
+  object-fit: cover;
+}

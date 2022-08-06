@@ -1,5 +1,10 @@
 import HeaderLogo from "../../Assets/HeaderLogo/HeaderLogo.jpeg";
 import { useSelector } from "react-redux";
+import Warrenty from "../../Assets/warrenty.png";
+import GoogleReview from "../../Assets/google.png";
+import FinanceProject from "../../Assets/project.png";
+import HntIcon from "../../Assets/hnt.png";
+import USDCIcon from "../../Assets/usdc.png";
 
 function BillingDetails() {
   const TotalProduct = useSelector((state) => state.TotalProduct);
@@ -184,7 +189,7 @@ function BillingDetails() {
           >
             <div className="col-3">
               <img
-                src="https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                src={HntIcon}
                 alt="#ImgNotFound"
                 className="rounded"
                 style={{
@@ -207,7 +212,7 @@ function BillingDetails() {
           >
             <div className="col-3">
               <img
-                src="https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                src={USDCIcon}
                 alt="#ImgNotFound"
                 className="rounded"
                 style={{
@@ -245,7 +250,7 @@ function BillingDetails() {
           {/* <img className='mt-5' src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Pan_Blue_Circle.png" alt="#image not found" width="100px" height="100px" /> */}
           <div className="card flex-container shadow-lg rounded border-0">
             <div className="text-center card-body border-0">
-              <i className="mb-3 fa fa-500px" style={{ fontSize: "40px" }}></i>
+              <i className="mb-3 fa fa-lock" style={{ fontSize: "40px" }}></i>
               <h5 className="fw-bold text-capitalize">
                 Your Information is secured
               </h5>
@@ -253,13 +258,14 @@ function BillingDetails() {
           </div>
           <div className="mt-3 card flex-container shadow-lg rounded border-0">
             <div className="text-center card-body border-0">
-              <i className="mb-3 fa fa-500px" style={{ fontSize: "40px" }}></i>
+              {/* <i className="mb-3 fa fa-500px" style={{ fontSize: "40px" }}></i> */}
+              <img src={Warrenty} style={{ width: 80 }} className="mb-3" />
               <h5 className="fw-bold text-capitalize">NFT WARRANTY</h5>
             </div>
           </div>
           <div className="mt-3 card flex-container shadow-lg rounded border-0">
             <div className="text-center card-body border-0">
-              <i className="mb-3 fa fa-500px" style={{ fontSize: "40px" }}></i>
+              <i className="mb-3 fa fa-phone" style={{ fontSize: "40px" }}></i>
               <h5 className="fw-bold">
                 Contact Us:{" "}
                 <a
@@ -277,12 +283,7 @@ function BillingDetails() {
             <div className="card-body">
               <div className="row d-flex align-items-cneter justify-content-center">
                 <div className="col-3 col-xl-2 d-flex align-items-center">
-                  <img
-                    src="https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheXxlbnwwfHwwfHw%3D&w=1000&q=80"
-                    alt="#"
-                    width="50px"
-                    height="50px"
-                  />
+                  <img src={GoogleReview} alt="#" width="50px" height="50px" />
                 </div>
                 <div className="col-9 col-xl-10">
                   <h6 className="fw-bold text-capitalize">GOOGLE REVIEWS</h6>
@@ -302,7 +303,7 @@ function BillingDetails() {
               <div className="row d-flex align-items-cneter justify-content-center">
                 <div className="col-3 col-xl-2 d-flex align-items-center">
                   <img
-                    src="https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                    src={FinanceProject}
                     alt="#"
                     width="50px"
                     height="50px"
@@ -327,12 +328,7 @@ function BillingDetails() {
             <div className="card-body">
               <div className="row d-flex align-items-cneter justify-content-center">
                 <div className="col-3 col-xl-2 d-flex align-items-center">
-                  <img
-                    src="https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheXxlbnwwfHwwfHw%3D&w=1000&q=80"
-                    alt="#"
-                    width="50px"
-                    height="50px"
-                  />
+                  <img src={HntIcon} alt="#" width="50px" height="50px" />
                 </div>
                 <div className="col-9 col-xl-10">
                   <h6 className="fw-bold text-capitalize">
